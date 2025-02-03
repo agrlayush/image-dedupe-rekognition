@@ -1,0 +1,30 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::your-s3-bucket-name",
+                "arn:aws:s3:::your-s3-bucket-name/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "rekognition:CreateCollection",
+                "rekognition:ListCollections",
+                "rekognition:DeleteCollection",
+                "rekognition:IndexFaces",
+                "rekognition:SearchFacesByImage",
+                "rekognition:SearchFaces",
+                "rekognition:DeleteFaces"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
