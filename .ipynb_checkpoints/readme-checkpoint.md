@@ -46,5 +46,5 @@ Modify `script.py` to set:
 - `parent_prefix`: The folder path in S3 where user images are stored.
 
 ## Notebook
-You can use the `rekognition-dedupe.ipynb` notebook file to test the implementation on Jupyter Notebook
+You can use the `rekognition-dedupe.ipynb` notebook file to test the implementation on Jupyter Notebook.
 
